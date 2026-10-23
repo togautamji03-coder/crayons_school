@@ -1,0 +1,1 @@
+Hero slider updated: images use object-fit: fill so the entire image is visible and stretched exactly to the fixed hero frame. No cropping.

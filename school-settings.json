@@ -1,0 +1,49 @@
+{
+    "school_name": "NAVJEEVVAN PUBLIC SCHOOL",
+    "bold_words": "NAVJEEVVAN PUBLIC SCHOOL",
+    "small_words": "",
+    "logo": "img/school_logo_74b7a9f630a55338.png",
+    "director_photo": "img/director_5bbd0ec0b845743c.png",
+    "director_name": "SANJAY JINDAL",
+    "content_limits": {
+        "max_hero_images": 5,
+        "max_gallery_sections": 10,
+        "max_gallery_images_per_section": 20
+    },
+    "theme": {
+        "primary": "#FF4880",
+        "secondary": "#1A1A1A",
+        "dark": "#1A1A1A",
+        "light": "#FFECF2",
+        "block": "#FFECF2",
+        "section": "#FFFFFF"
+    },
+    "whatsapp_phone": "9212373352",
+    "hero_images": [
+        "img/hero_9d26f7c712d72186.jpg"
+    ],
+    "hero_image": "img/hero_9d26f7c712d72186.jpg",
+    "social_media": {
+        "facebook": "",
+        "twitter": "",
+        "instagram": "",
+        "linkedin": ""
+    },
+    "about": {
+        "label": "About Us",
+        "heading": "We Learn Smart Way To Build Bright Futute For Your Children",
+        "paragraph1": "Founded on the principles of integrity and excellence, NEW MODERN PUBLIC SCHOOL has become a cornerstone of quality education in our community. We offer a comprehensive educational experience that blends traditional values with modern pedagogical techniques.",
+        "paragraph2": "Our school is more than just classrooms; it is a vibrant ecosystem where students are encouraged to push boundaries\u2014academically, athletically, and artistically. With a dedicated faculty and state-of-the-art facilities, we prepare our students to meet the challenges of the 21st century with resilience and intelligence.",
+        "features": [
+            "Sport Activites",
+            "Outdoor Games",
+            "Nutritious Foods",
+            "Highly Secured",
+            "Friendly Environment",
+            "Qualified Teacher"
+        ],
+        "video_url": "https://www.youtube.com/embed/DWRcNpR6Kdc",
+        "button_text": "Contact us",
+        "button_url": ""
+    }
+}

@@ -1,0 +1,18 @@
+HERO MOBILE RATIO FIX
+======================
+
+The mobile hero now uses the same 1920:550 banner aspect ratio as the desktop hero.
+
+- Desktop hero slider remains unchanged.
+- Mobile hero keeps the same banner proportion.
+- No image cropping is used.
+- Uploaded slider images continue using object-fit: fill, matching the existing
+  exact-stretch-fit behavior.
+- Hero text/buttons are compacted on mobile so the content remains inside the
+  shorter banner instead of increasing the hero height and breaking the ratio.
+- Header z-index/layering remains unchanged.
+- 3-second hero slider remains unchanged.
+
+Deployment:
+Upload/replace the website files with the contents of this ZIP.
+No database migration is required.

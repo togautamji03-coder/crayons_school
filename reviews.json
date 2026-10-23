@@ -1,0 +1,42 @@
+[
+    {
+        "id": "review-70cbfd6f20c5",
+        "parent_name": "Kushal",
+        "profession": "Father",
+        "rating": 3,
+        "review": "Very good school",
+        "photo": "img/review_02d5e3f4fbaeebb8.jpeg",
+        "status": "approved",
+        "submitted_at": "2026-09-20T10:07:08-04:00"
+    },
+    {
+        "id": "review-a0bc818a2581",
+        "parent_name": "Anita",
+        "profession": "Mother",
+        "rating": 1,
+        "review": "Very bad school",
+        "photo": "img/review_ebf12cb6e078a157.jpg",
+        "status": "approved",
+        "submitted_at": "2026-09-20T10:08:13-04:00"
+    },
+    {
+        "id": "review-bf0ef3dd0de0",
+        "parent_name": "Diksha",
+        "profession": "Gautdian",
+        "rating": 5,
+        "review": "Not sure what to say",
+        "photo": "img/review_1263891e579c2fc0.png",
+        "status": "approved",
+        "submitted_at": "2026-09-20T10:08:43-04:00"
+    },
+    {
+        "id": "review-6027bd438574",
+        "parent_name": "Gautam",
+        "profession": "Father",
+        "rating": 2,
+        "review": "Behad badhiya school",
+        "photo": "img/review_24dba8d5648c98cb.jpg",
+        "status": "approved",
+        "submitted_at": "2026-09-20T10:09:52-04:00"
+    }
+]

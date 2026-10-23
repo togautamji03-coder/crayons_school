@@ -1,0 +1,31 @@
+[
+    {
+        "id": "school-gallery-default",
+        "name": "Activity Gallery",
+        "images": [
+            "img/gallery_seed_1.jpg",
+            "img/gallery_seed_2.jpg",
+            "img/gallery_seed_3.jpg",
+            "img/gallery_seed_4.jpg",
+            "img/gallery_seed_5.jpg",
+            "img/gallery_seed_6.jpg"
+        ]
+    },
+    {
+        "id": "anuall-function-2026-a2d7dcde",
+        "name": "Anuall Function 2026",
+        "images": []
+    },
+    {
+        "id": "sports-day-2026-2a405091",
+        "name": "Sports day 2026",
+        "images": [
+            "img/gallery_2329ad4ad215e8a6.png"
+        ]
+    },
+    {
+        "id": "nur-a-136205a0",
+        "name": "Nur A",
+        "images": []
+    }
+]
