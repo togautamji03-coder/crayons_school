@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>NAVJEEVVAN PUBLIC SCHOOL - Daycare Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="../css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="../releases/v5.15.4/css/all.css">
+        <link href="../npm/bootstrap-icons%401.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css?v=teacher-desc-fix" rel="stylesheet">
+
+        
+
+    <style id="school-logo-emergency-fix">.school-logo-brand{display:flex!important;align-items:center!important;flex:0 0 auto!important}.school-logo-box{display:flex!important;width:72px!important;height:72px!important;min-width:72px!important;min-height:72px!important;max-width:72px!important;max-height:72px!important;aspect-ratio:1/1!important;overflow:hidden!important;align-items:center!important;justify-content:center!important}.school-logo-header{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important}.school-name-header{display:block!important;min-width:0!important}</style>        <script src="js/theme.js"></script>
+</head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+        <!-- Mobile Spinner Fallback -->
+        <script id="mobile-spinner-fallback">
+        (function(){
+            function hide(){var e=document.getElementById('spinner');if(e){e.classList.remove('show');e.style.opacity='0';e.style.visibility='hidden';e.style.pointerEvents='none';}}
+            document.addEventListener('DOMContentLoaded',hide,{once:true});
+            window.addEventListener('load',hide,{once:true});
+            setTimeout(hide,2500);
+        })();
+        </script>
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid border-bottom bg-light wow fadeIn" data-wow-delay="0.1s">
+            <div class="container topbar bg-primary d-none d-lg-block py-2" style="border-radius: 0 40px">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">test 2</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">test2@abc.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-secondary"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-twitter text-secondary"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-instagram text-secondary"></i></a>
+                        <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in text-secondary"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl py-3">
+                    <a href="index.html" class="navbar-brand school-logo-brand" aria-label="NAVJEEVVAN PUBLIC SCHOOL"><span class="school-logo-box"><img src="img/school_logo_74b7a9f630a55338.png" alt="NAVJEEVVAN PUBLIC SCHOOL Logo" class="school-logo-header"></span><span class="school-name-header">NAVJEEVVAN PUBLIC SCHOOL</span></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            <a href="program.html" class="nav-item nav-link">Programs</a>
+                            <a href="event.html" class="nav-item nav-link active">Events</a>
+                            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                            <a href="announcement.html" class="nav-item nav-link">Announcement</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex me-4">
+                            <div id="phone-tada" class="d-flex align-items-center justify-content-center">
+                                <a href="" class="position-relative wow tada" data-wow-delay=".9s">
+                                    <i class="fa fa-phone-alt text-primary fa-2x me-4"></i></a>
+                            </div>
+                            <div class="d-flex flex-column pe-3 border-end border-primary">
+                                <span class="text-primary">Have any questions?</span>
+                                <a href="#"><span class="text-secondary">Free: 3333333333</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4">Student Birthdays</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item text-white" aria-current="page">Student Birthdays</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+
+        ```html
+<!-- Birthdays Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                Student Birthdays
+            </h4>
+            <h1 class="text-dark mb-3 display-5">
+                Birthday Wishes
+            </h1>
+            <p class="text-dark mb-0">
+                Celebrating the special days of our students
+            </p>
+        </div>
+
+        <!-- BIRTHDAY-MANAGED-START -->
+
+<div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-a7890b966d"
+             data-dob="2013-11-15">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_13d70f457e660d9d.jpeg"
+                     class="img-fluid w-100"
+                     alt="AAMNA">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">AAMNA</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-11-15
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-7b834d2519"
+             data-dob="2013-08-30">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_0bed5aa241ae6473.jpeg"
+                     class="img-fluid w-100"
+                     alt="BABY SEJAL">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">BABY SEJAL</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-08-30
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-56f35e628b"
+             data-dob="2013-02-13">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_2b8068284dd7fec6.jpeg"
+                     class="img-fluid w-100"
+                     alt="DIVYA VERMA">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">DIVYA VERMA</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-02-13
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-15b68cc959"
+             data-dob="2014-01-07">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_0647960ed62c5b8a.jpeg"
+                     class="img-fluid w-100"
+                     alt="DEV ASHISH">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">DEV ASHISH</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-01-07
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-265e341511"
+             data-dob="2012-12-26">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_5c380e4669382113.jpeg"
+                     class="img-fluid w-100"
+                     alt="GUNJAN">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">GUNJAN</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2012-12-26
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-643dab7c66"
+             data-dob="2013-08-15">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_7ccdc3ef8f413c73.jpeg"
+                     class="img-fluid w-100"
+                     alt="NAITIK">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">NAITIK</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-08-15
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-ba4fe4edc5"
+             data-dob="2013-09-13">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_673a3456de9068db.jpeg"
+                     class="img-fluid w-100"
+                     alt="PRACHI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">PRACHI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-09-13
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-aca5cfd1a5"
+             data-dob="2013-08-13">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_cd650e603bcbdb88.jpeg"
+                     class="img-fluid w-100"
+                     alt="RIDHI SINGH">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">RIDHI SINGH</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-08-13
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-8ea1fec552"
+             data-dob="2013-01-25">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_e42e9ce974a3c41d.jpeg"
+                     class="img-fluid w-100"
+                     alt="RIMJHIM KUMARI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">RIMJHIM KUMARI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-01-25
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-765a5e17a6"
+             data-dob="2013-02-19">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_9d9855695e33962b.jpeg"
+                     class="img-fluid w-100"
+                     alt="RISHU KUMAR">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">RISHU KUMAR</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-02-19
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-80d5a1159c"
+             data-dob="2013-05-21">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_85da409adf55435a.jpeg"
+                     class="img-fluid w-100"
+                     alt="ROHIT KUMAR">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">ROHIT KUMAR</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-05-21
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-e4cb4e9c8f"
+             data-dob="2012-10-27">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_a4847c9a50d9b87c.jpeg"
+                     class="img-fluid w-100"
+                     alt="SHRISHTI DHAMA">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">SHRISHTI DHAMA</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2012-10-27
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-f8b81af961"
+             data-dob="2013-12-19">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_a80fd47c60a47096.jpeg"
+                     class="img-fluid w-100"
+                     alt="VAISHNAVI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VAISHNAVI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-12-19
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-41fe5ab4e8"
+             data-dob="2013-09-25">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_d11b24653499c14b.jpeg"
+                     class="img-fluid w-100"
+                     alt="VANSH">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VANSH</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-09-25
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-f9080d560d"
+             data-dob="2012-01-07">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_2b08f75b4ee41491.jpeg"
+                     class="img-fluid w-100"
+                     alt="VISHAL">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VISHAL</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2012-01-07
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-6c7b908cf1"
+             data-dob="2015-01-21">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_ad2d8c946408c1c6.jpeg"
+                     class="img-fluid w-100"
+                     alt="ANSHULA KUMARI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">ANSHULA KUMARI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2015-01-21
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-649584d9c3"
+             data-dob="2013-05-07">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_e218eeb132c8917b.jpeg"
+                     class="img-fluid w-100"
+                     alt="AYAAN">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">AYAAN</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-05-07
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-2d605e765b"
+             data-dob="2014-06-17">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_4af011e99ac7095b.jpeg"
+                     class="img-fluid w-100"
+                     alt="GARVIT">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">GARVIT</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-06-17
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-0f7ab87199"
+             data-dob="2014-08-22">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_4cbe4be48507df6c.jpeg"
+                     class="img-fluid w-100"
+                     alt="HARSHIT">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">HARSHIT</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-08-22
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-2a92bbc7cc"
+             data-dob="2014-04-28">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_6183bd9bf2654073.jpeg"
+                     class="img-fluid w-100"
+                     alt="HARSHIT KUMAR DIVEDI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">HARSHIT KUMAR DIVEDI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-04-28
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-9cebb2e5c9"
+             data-dob="2013-11-09">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_7396c3a9346035aa.jpeg"
+                     class="img-fluid w-100"
+                     alt="JATIN">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">JATIN</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-11-09
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-2729cbb9b7"
+             data-dob="2013-08-03">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_3d185a9545b016ab.jpeg"
+                     class="img-fluid w-100"
+                     alt="KANISHKA KUMARI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">KANISHKA KUMARI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-08-03
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-279137c3c2"
+             data-dob="2014-07-28">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_f3da0c77a74d218a.jpeg"
+                     class="img-fluid w-100"
+                     alt="MANISH KUMAR SAH">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">MANISH KUMAR SAH</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-07-28
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-c7fbe4bba7"
+             data-dob="2014-12-13">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_4cc9ea0d0abf8100.jpeg"
+                     class="img-fluid w-100"
+                     alt="MEHAK MATHUR">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">MEHAK MATHUR</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-12-13
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-1d67d230e2"
+             data-dob="2014-10-13">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_e49c8cecfa3be676.jpeg"
+                     class="img-fluid w-100"
+                     alt="NIRAJ">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">NIRAJ</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-10-13
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-669b78ddf9"
+             data-dob="2014-03-29">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_c31762879f47fdbd.jpeg"
+                     class="img-fluid w-100"
+                     alt="PRACHI MAURYA">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">PRACHI MAURYA</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-03-29
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-b0b4ac061a"
+             data-dob="2013-09-24">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_c4f90a8b5414866a.jpeg"
+                     class="img-fluid w-100"
+                     alt="SHIFA MALIK">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">SHIFA MALIK</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-09-24
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-f802fb29e0"
+             data-dob="2014-07-21">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_a6339e07a34dbe30.jpeg"
+                     class="img-fluid w-100"
+                     alt="SOHIT KUMAR">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">SOHIT KUMAR</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-07-21
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-eae4f3aea6"
+             data-dob="2014-02-09">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_cd0ede9175d960dc.jpeg"
+                     class="img-fluid w-100"
+                     alt="VANSHIKA">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VANSHIKA</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-02-09
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-7737b6e12c"
+             data-dob="2014-06-08">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_8db1e83299658096.jpeg"
+                     class="img-fluid w-100"
+                     alt="VIDHAN KUMAR">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VIDHAN KUMAR</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2014-06-08
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-05592636c7"
+             data-dob="2013-04-12">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_27003d61f41a8333.jpeg"
+                     class="img-fluid w-100"
+                     alt="VISHAL">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">VISHAL</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2013-04-12
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-63b8f22c78"
+             data-dob="2016-01-30">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_6a5a77fbef5a15b8.jpeg"
+                     class="img-fluid w-100"
+                     alt="AARADHYA NEGI">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">AARADHYA NEGI</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2016-01-30
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-6f5171a73e"
+             data-dob="2015-04-26">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_fc44e7e2a2e0dde4.jpeg"
+                     class="img-fluid w-100"
+                     alt="HARSH">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">HARSH</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2015-04-26
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 col-xl-3 birthday-card"
+             data-admin-id="birthday-9e653a2c50"
+             data-dob="2016-03-03">
+            <div class="border border-primary rounded overflow-hidden h-100 bg-white">
+                <img src="img/birthday_748cf0bac2b5c056.jpeg"
+                     class="img-fluid w-100"
+                     alt="MOHAMMAD AHAD">
+                <div class="text-center p-3">
+                    <h4 class="text-primary mb-2">MOHAMMAD AHAD</h4>
+                    <p class="text-muted mb-0">
+                        Date of Birth: 2016-03-03
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<!-- BIRTHDAY-MANAGED-END -->
+    </div>
+</div>
+<!-- Birthdays End -->
+
+<!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <a href="index.html" class="school-footer-brand" aria-label="NAVJEEVVAN PUBLIC SCHOOL" style="display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:12px!important;width:max-content!important;max-width:100%!important;margin:0 0 18px 0!important;padding:0!important;text-decoration:none!important;"><span class="school-footer-logo-box" style="display:flex!important;align-items:center!important;justify-content:center!important;width:72px!important;height:72px!important;min-width:72px!important;min-height:72px!important;max-width:72px!important;max-height:72px!important;flex:0 0 72px!important;aspect-ratio:1/1!important;overflow:hidden!important;background:#fff!important;border-radius:6px!important;"><img src="img/school_logo_74b7a9f630a55338.png" alt="NAVJEEVVAN PUBLIC SCHOOL Logo" class="school-footer-logo" style="display:block!important;width:100%!important;height:100%!important;min-width:0!important;min-height:0!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center center!important;flex:none!important;"></span><span class="school-footer-name" style="display:block!important;min-width:0!important;max-width:260px!important;font-size:22px!important;font-weight:700!important;line-height:1.2!important;color:var(--bs-dark,#333)!important;">NAVJEEVVAN PUBLIC SCHOOL</span></a>
+                            <p class="mb-4">Empowering every student through academic excellence, creative innovation, and emotional well-being to build a foundation for lifelong success and global leadership.</p>
+                            <div class="border border-primary p-3 rounded bg-light">
+
+
+                                <h5 class="mb-3">The best school in area</h5>
+                                <div class="position-relative mx-auto border border-primary rounded" style="max-width: 400px;">
+                                  <!--  <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">  
+                                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-white">SignUp</button>   -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <div class="d-flex flex-column p-4 ps-5 text-dark border border-primary" style="border-radius: 50% 20% / 10% 40%;">
+                                <p>Nurture</p>
+                                <p>Inspire</p>
+                                <p>Excel</p>
+                                <p>Create</p>
+                                <p>Innovate</p>
+                                <p>Empower</p>
+                                <p class="mb-0">Achieve</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">LOCATION</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="" class="text-body mb-4"><i class="fa fa-map-marker-alt text-primary me-2"></i> Gali-39, New Delhi, India</a>
+                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fa fa-phone-alt text-primary me-2"></i> 1111111111</a>
+                                <a href="" class="text-start rounded-0 text-body mb-4"><i class="fas fa-envelope text-primary me-2"></i> bms@gmail.com</a>
+                                
+                                <div class="footer-icon d-flex">
+                                    <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square me-3 rounded-circle text-white" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-primary btn-sm-square rounded-circle text-white"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">OUR GALLARY</h4>
+                            <div class="row g-3">
+                                <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-1.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                               <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-2.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-3.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-4.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-5.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                                <div class="col-4">
+                                    <div class="footer-galary-img rounded-circle border border-primary">
+                                        <img src="img/galary-6.jpg" class="img-fluid rounded-circle p-2" alt="">
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        
+                        <span class="text-light"><a href="#">NAVJEEVVAN PUBLIC SCHOOL</a></span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        <!--Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a clas="border-bottom" href="https://themewagon.com">ThemeWagon</a>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="npm/bootstrap%405.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js?v=20261002-youtube-fix"></script>
+    </body>
+
+</html>
