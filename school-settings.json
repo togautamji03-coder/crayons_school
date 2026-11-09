@@ -1,10 +1,10 @@
 {
-    "school_name": "NAVJEEVVAN PUBLIC SCHOOL",
-    "bold_words": "NAVJEEVVAN PUBLIC SCHOOL",
+    "school_name": "NAVJEEVVAN CONVENT SCHOOL",
+    "bold_words": "NAVJEEVVAN CONVENT SCHOOL",
     "small_words": "",
     "logo": "img/school_logo_74b7a9f630a55338.png",
     "director_photo": "img/director_8277074986cd96dc.jpeg",
-    "director_name": "YASMEEN KHAN",
+    "director_name": "Test Khan",
     "content_limits": {
         "max_hero_images": 5,
         "max_gallery_sections": 10,
@@ -20,14 +20,17 @@
     },
     "whatsapp_phone": "9212373352",
     "hero_images": [
-        "img/hero_9d26f7c712d72186.jpg",
-        "img/hero_ec0e45bcdbe9b415.png"
+        "img/hero_d011ad4cf7b24200.jpeg",
+        "img/hero_a5d9d8d03054ab20.jpeg",
+        "img/hero_bf52fb0ed34c3977.jpeg",
+        "img/hero_98ded4ba9e9a5b5f.jpeg",
+        "img/hero_45db9e7891e12d89.jpeg"
     ],
-    "hero_image": "img/hero_9d26f7c712d72186.jpg",
+    "hero_image": "img/hero_d011ad4cf7b24200.jpeg",
     "social_media": {
         "facebook": "",
         "twitter": "",
-        "instagram": "",
+        "instagram": "https://www.instagram.com/navjeevvanconventschool?cplk=MTk3emkwc2t3c2Y1bg==",
         "linkedin": ""
     },
     "about": {

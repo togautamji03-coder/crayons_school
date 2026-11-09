@@ -3,12 +3,15 @@
         "id": "school-gallery-default",
         "name": "Activity Gallery",
         "images": [
-            "img/gallery_seed_1.jpg",
-            "img/gallery_seed_2.jpg",
-            "img/gallery_seed_3.jpg",
-            "img/gallery_seed_4.jpg",
-            "img/gallery_seed_5.jpg",
-            "img/gallery_seed_6.jpg"
+            "img/gallery_f68f661d27de5431.jpeg",
+            "img/gallery_4371b46f8c6e67a7.jpeg",
+            "img/gallery_dfc1e2d61a9f2639.jpeg",
+            "img/gallery_79764e78ca93f415.jpeg",
+            "img/gallery_4737fc024bb58f4f.jpeg",
+            "img/gallery_438d1f20483d9d9e.jpeg",
+            "img/gallery_fd7d9ecedf10570d.jpeg",
+            "img/gallery_5dc4005b2f1c07ce.jpeg",
+            "img/gallery_08aad8e78da0a108.jpeg"
         ]
     },
     {
@@ -20,12 +23,12 @@
         "id": "sports-day-2026-2a405091",
         "name": "Sports day 2026",
         "images": [
-            "img/gallery_2329ad4ad215e8a6.png"
+            "img/gallery_ef9c977437ae3fba.webp"
         ]
     },
     {
         "id": "nur-a-136205a0",
-        "name": "Nur A",
+        "name": "SCHOOL TRIPS",
         "images": []
     }
 ]

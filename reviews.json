@@ -10,16 +10,6 @@
         "submitted_at": "2026-09-20T10:07:08-04:00"
     },
     {
-        "id": "review-a0bc818a2581",
-        "parent_name": "Anita",
-        "profession": "Mother",
-        "rating": 1,
-        "review": "Very bad school",
-        "photo": "img/review_ebf12cb6e078a157.jpg",
-        "status": "approved",
-        "submitted_at": "2026-09-20T10:08:13-04:00"
-    },
-    {
         "id": "review-bf0ef3dd0de0",
         "parent_name": "Diksha",
         "profession": "Gautdian",

@@ -24,6 +24,58 @@ require_once __DIR__ . '/admin-config.php';
 require_once __DIR__ . '/content-manager.php';
 require_once __DIR__ . '/super-admin-config.php';
 
+/**
+ * Queue a protected Render sync after a successful admin content update.
+ * Secrets are kept in config.private.php, which the sync script excludes.
+ */
+function adminQueueWebsiteSync(): bool
+{
+    $privateConfigFile = __DIR__ . '/config.private.php';
+    if (!is_file($privateConfigFile)) {
+        error_log('Website sync trigger skipped: config.private.php is missing.');
+        return false;
+    }
+
+    $privateConfig = require $privateConfigFile;
+    if (!is_array($privateConfig)) {
+        error_log('Website sync trigger skipped: config.private.php must return an array.');
+        return false;
+    }
+
+    $syncUrl = rtrim((string)($privateConfig['render_sync_url'] ?? ''), '/');
+    $syncSecret = (string)($privateConfig['sync_secret'] ?? '');
+    if ($syncUrl === '' || $syncSecret === '') {
+        error_log('Website sync trigger skipped: Render URL or sync secret is missing.');
+        return false;
+    }
+
+    $url = $syncUrl . '/trigger';
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'POST',
+            'header' => "Authorization: Bearer " . $syncSecret . "\r\nContent-Type: application/json\r\n",
+            'content' => '{}',
+            'timeout' => 4,
+            'ignore_errors' => true
+        ]
+    ]);
+
+    $response = @file_get_contents($url, false, $context);
+    if ($response === false) {
+        error_log('Website sync trigger request failed.');
+        return false;
+    }
+
+    // A 202 response means the background sync was queued.
+    $statusLine = $http_response_header[0] ?? '';
+    if (strpos($statusLine, '202') !== false || strpos($statusLine, '200') !== false) {
+        return true;
+    }
+
+    error_log('Website sync trigger returned unexpected status: ' . $statusLine);
+    return false;
+}
+
 sendAdminSecurityHeaders();
 
 
@@ -144,6 +196,15 @@ if (
     } else {
 
         $result = cm_process_action();
+    }
+
+    /*
+     * Trigger Render only after a CMS action reports success.
+     * The website edit remains successful even if the remote trigger
+     * is temporarily unavailable; the failure is written to the PHP error log.
+     */
+    if (is_array($result) && (($result['type'] ?? '') === 'success')) {
+        adminQueueWebsiteSync();
     }
 
     /*
